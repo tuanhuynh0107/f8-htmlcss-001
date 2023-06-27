@@ -69,8 +69,12 @@ a {
 }
 
 .hero-wrap {
-    height: 100vh;
+    position: relative;
+    height: calc(100vh - 90px);
     background: #E6F0FF;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 }
 
 .navbar {
@@ -112,9 +116,6 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    padding-top: 130px;
-}
 
 .hero .info {
     width: 51%;
